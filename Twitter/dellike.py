@@ -1,10 +1,7 @@
 import tweepy
 import csv
 
-consumer_key = 'g1dFP8fkMUdsVzI0KNyo6cZ2a'
-consumer_secret = '3tgsVN2Ny0b3qecsOfYWxM3Jvfii092GAoDR0XVn1VuRGU2sdF'
-access_key = '13092332-L1CThQnkmQqfHKYafOGWQAMrTpBXWn3X37IfH9qQ1'
-access_secret = 'z5AA3L0vWFds8ipMX5p7nW66QJGPDemPITf38x4zoCi81'
+"""Twitter API Stuff"""
 
 def oauth_login(consumer_key, consumer_secret):
     """Authenticate with twitter using OAuth"""
